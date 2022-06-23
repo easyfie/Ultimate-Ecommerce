@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "robi/easyfieapi",
+            "version": "v2.5",
+            "version_normalized": "2.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/touhid12310/EasyfieApi.git",
+                "reference": "800edd53d039e876a131ffe64dd5b4e56383dbd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/touhid12310/EasyfieApi/zipball/800edd53d039e876a131ffe64dd5b4e56383dbd2",
+                "reference": "800edd53d039e876a131ffe64dd5b4e56383dbd2",
+                "shasum": ""
+            },
+            "time": "2022-04-04T09:35:15+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "EasyFie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Touhidul Ahmed Robi",
+                    "email": "touhid12310@gmail.com"
+                }
+            ],
+            "description": "EasyFie api",
+            "support": {
+                "issues": "https://github.com/touhid12310/EasyfieApi/issues",
+                "source": "https://github.com/touhid12310/EasyfieApi/tree/v2.5"
+            },
+            "install-path": "../robi/easyfieapi"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

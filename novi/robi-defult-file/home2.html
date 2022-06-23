@@ -1,0 +1,313 @@
+<?php require_once("config.php"); ?>
+<?php require_once("config.php"); ?>
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <title>home2</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="https://www.easyfie.com/<?= @$web_data->icon; ?>" type="image/x-icon">
+<?= $web_data->header; ?>
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:100,300,400,700,900">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/easyfie.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/novi.css">
+  <!--[if lt IE 10]>      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>      <script src="js/html5shiv.min.js"></script>    <![endif]-->
+</head>
+
+<body>
+  <div class="page text-center">
+    
+<?php
+require_once("config.php"); 
+?>
+
+<!-- Header 2 - Portfolio (Dynamic) start -->
+  
+<?php
+require_once("config.php"); 
+?>
+
+<!-- Header 2 - Portfolio (Dynamic) start -->
+  <section class="section easyfie_header2">
+    <header class="page-header">
+      <div class="rd-navbar-wrap bg-light">
+        <nav class="rd-navbar rd-navbar-default novi-background" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static" data-stick-up-clone="true" data-md-stick-up-offset="190px" data-lg-stick-up-offset="190px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+          <div class="rd-navbar-inner">
+            <div class="rd-navbar-panel"><button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+              <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="https://www.easyfie.com/<?= $web_data->logo ?>" alt="logo" width="100" height="28"></a></div>
+            </div>
+
+            <div class="rd-navbar-nav-wrap">
+              <ul class="rd-navbar-nav">
+                <li><a href="https://<?= $web_data->website ?>">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="blog.php">Blogs</a></li>
+                <li><a href="#">Page</a>
+                  <ul class="rd-navbar-dropdown">
+                    <?php foreach ($generated_pages as $menu1) { ?>
+                      <?php if ($menu1->menu == "UpperMenu") { ?>
+                        <li><a href="page.php?name=<?= $menu1->slug ?> "><?= $menu1->title ?></a></li>
+                    <?php }
+                    } ?>
+                  </ul>
+                </li>
+                <li>
+                  <nav class="navbar navbar-light">
+                    <form action="search.php" class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="query">
+                      <button class="btn btn-outline-success my-2 my-sm-0 rounded-right" type="submit">Search</button>
+                    </form>
+                  </nav>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </section>
+  <!-- Header 2 - Portfolio (Dynamic) end -->
+
+  <!-- Header 2 - Portfolio (Dynamic) end -->
+
+    
+    <?php require_once("config.php"); ?>
+    <!-- Bio 1 - Portfolio (Dynamic) start -->
+
+
+    
+    <?php require_once("config.php"); ?>
+    <!-- Bio 1 - Portfolio (Dynamic) start -->
+
+
+    <section class="section section-xs easyfie_Bio_light_1" style="background-color: #F5F5F5;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mt-4">
+          <div class="about-avatar"><img class="rounded-circle d-block mx-auto" style="width:250px; height: 250px;" src="https://www.easyfie.com/upload/photos/2022/04/x8CCKFtdrlweJ5FRZXd8_22_3a813a2092da0f520dfc04b2c1687fda_avatar.jpg">
+          </div>
+          <h3 class="dark-color text-center font-weight-bold" style="color: #20247B;">Free CV Bank</h3>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div class="about-text go-to">
+            <h3 class="dark-color font-weight-bold text-left" style="color: #20247B;" data-novi-id="1">About Me</h3>
+            <h6 class="theme-color lead my-2  text-left" style="color: #FC5356;" data-novi-id="2">Graphics designer</h6>
+            <p class="text-justify">Hi, my name is Nizam. Hahshdvrhiwhd I have 8 years of professional graphic design experience. Designing is not only my profession but also my passion.</p>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="d-flex">
+                  <div class="col-md-4 px-0  text-left" data-novi-id="0"><span class="font-weight-bold">Email:</span></div>
+                  <div class="col-md-8 px-0  text-left" data-novi-id="6"><span>tanvir@gmail.com</span></div>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="col-md-4 px-0  text-left" data-novi-id="3"><span class="font-weight-bold">Mobile:</span></div>
+                  <div class="col-md-8 px-0  text-left" data-novi-id="7"><span>+8801715121212</span></div>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="col-md-4 px-0  text-left" data-novi-id="4"><span class="font-weight-bold">Profession:</span></div>
+                  <div class="col-md-8 px-0  text-left" data-novi-id="8"><span>Business Owner</span></div>
+                </div>
+                <div class="d-flex mt-2">
+                  <div class="col-md-4 px-0  text-left" data-novi-id="5"><span class="font-weight-bold">Website:</span></div>
+                  <div class="col-md-8 px-0  text-left" data-novi-id="9"><span>https://www.freecvbank.com/</span></div>
+                </div>
+                <div class="d-flex justify-content-start mt-5">
+                  <div><a href="https://www.facebook.com/"><i class="icon novi-icon icon-md icon-rounded icon-trout-outline icon-effect-1 p-1 mdi-facebook-box mdi"></i></a></div>
+                  <div class="ml-3"><a href="easyfie"><i class="icon novi-icon icon-md icon-rounded icon-trout-outline icon-effect-1 p-1 mdi-linkedin-box mdi"></i></a></div>
+                  <div class="ml-3"><a href="easyfie"><i class="icon novi-icon icon-md icon-rounded icon-trout-outline icon-effect-1 p-1 mdi-twitter-box mdi"></i></a></div>
+                  <div class="ml-3"><a href="easyfie"><i class="icon novi-icon icon-md icon-rounded icon-trout-outline icon-effect-1 p-1 mdi-instagram mdi"></i></a></div>
+                  <div class="ml-3"><a href="easyfie"><i class="icon novi-icon icon-md icon-rounded icon-trout-outline icon-effect-1 p-1 mdi-youtube-play mdi"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    
+
+    
+    <section class="section section-xs bg-image novi-background text-center">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <h2>Skills</h2>
+        </div>
+      </div>
+    </section>
+    
+    <?php require_once("config.php"); ?>
+    <!-- ProgressBar 3 - Portfolio (Dynamic) start -->
+  
+    <?php require_once("config.php"); ?>
+    <!-- ProgressBar 3 - Portfolio (Dynamic) start -->
+  <section class="section section-xs novi-background bg-image text-left easyfie_progressbar_white_3">
+    <div class="container">
+      <div class="row justify-content-center spacing-40">
+        <?php
+        $skills = json_decode(html_entity_decode($me->skill));
+        $skill_range = json_decode(html_entity_decode($me->skill_range));
+        foreach ($skills as $key => $skill_3) {
+        ?>
+          <div class="col-sm-10 col-lg-8 col-xl-6">
+            <div class="progress-bar-bs progress-gradient view-animate">
+              <p class="list-bars-item-header"><?php echo $skill_3; ?></p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="<?php echo $skill_range->{"$key"}; ?>%" aria-valuemin="0" aria-valuemax="100" style="max-width: <?php echo $skill_range->{"$key"} ?>%;"></div>
+              </div> <span class="caption"><?php echo $skill_range->{"$key"} ?>%</span>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+    </div>
+  </section>
+  <!-- ProgressBar 3 - Portfolio (Dynamic) end -->
+    
+  <!-- ProgressBar 3 - Portfolio (Dynamic) end -->
+    
+    <?php
+require_once("config.php");
+$portfolio = $easyfie->Portfolio($token, 12, "desc", 1);
+?>
+
+<!-- Portfolio 1 - Portfolio (Dynamic) start -->
+<?php
+require_once("config.php");
+$portfolio = $easyfie->Portfolio($token, 12, "desc", 1);
+?>
+
+<!-- Portfolio 1 - Portfolio (Dynamic) start -->
+<section class="section easyfie_Portfolio1 section-lg bg-default novi-background bg-image">
+  <div class="container">
+    <h3 class="text-center"> <span class="heading-3">Portfolio</span></h3>
+    <div class="isotope-wrap">
+      <div class="row isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group">
+        <?php foreach ($portfolio->data as $portfolio1) { ?>
+          <div class="col-xs-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="thumbnail-classic" href="https://www.easyfie.com/<?= $portfolio1->image ?>" data-lightgallery="item">
+              <figure><img src="https://www.easyfie.com/<?= str_replace("_image.jpg", "_image_small.jpg", $portfolio1->image); ?>" alt="" width="370" height="278"> </figure>
+              <div class="caption">
+                <p class="caption-title"><?= $portfolio1->album_name ?></p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio 1 - Portfolio (Dynamic) end -->
+<!-- Portfolio 1 - Portfolio (Dynamic) end -->
+    <section class="section section-lg bg-default novi-background bg-image">
+      <h3> <span class="heading-3">Gallery</span> Grid Fullwidth</h3>
+      <div class="isotope-wrap">
+        <ul class="isotope-filters-responsive">
+          <li>
+            <p>Choose your category:</p>
+          </li>
+          <li class="block-top-level"> <button class="isotope-filters-toggle btn btn-sm btn-primary" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true">Filter <span class="caret"></span></button>
+            <div class="isotope-filters" id="isotope-3">
+              <ul class="inline-list">
+                <li> <a class="active" data-isotope-filter="*" data-isotope-group="gallery2" href="#">All</a></li>
+                <li> <a data-isotope-filter="Category 5" data-isotope-group="gallery2" href="#" class="">Web Design</a></li>
+                <li> <a data-isotope-filter="Category 6" data-isotope-group="gallery2" href="#" class="">Creative</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="row isotope row-no-gutter" data-isotope-layout="fitRows" data-isotope-group="gallery2" data-lightgallery="group">
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 5"><a class="thumbnail-classic" href="images/grid-gallery-1-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-1-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #1</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 6"><a class="thumbnail-classic" href="images/grid-gallery-2-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-2-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #2</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 5"><a class="thumbnail-classic" href="images/grid-gallery-3-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-3-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #3</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 5"><a class="thumbnail-classic" href="images/grid-gallery-4-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-4-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #4</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 5"><a class="thumbnail-classic" href="images/grid-gallery-7-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-7-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #5</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+          <div class="col-12 col-sm-6 col-lg-4 isotope-item" data-filter="Category 6"><a class="thumbnail-classic" href="images/grid-gallery-8-1200x800_original.jpg" data-lightgallery="item">
+              <figure><img src="images/grid-gallery-8-640x426.jpg" alt="" width="640" height="426"> </figure>
+              <div class="caption">
+                <p class="caption-title">Photo #6</p>
+                <p class="caption-text"></p>
+              </div>
+            </a> </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- footer 1 - Dynamic start -->
+
+  
+<!-- footer 1 - Dynamic start -->
+
+  <section class="section easyfie_footer1 page-footer-default text-center novi-background bg-image">
+    <div class="container">
+      <div class="row spacing-30">
+        <div class="col-lg-8 text-lg-left">
+          <ul class="list-nav">
+            <?php foreach ($generated_pages as $menu1) { ?>
+              <?php if ($menu1->menu == "DownMenu") { ?>
+                <li> <a class="text-white" href="page.php?name=<?= $menu1->slug ?>"><?= $menu1->title ?></a> </li>
+            <?php } } ?>
+          </ul>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          <p class="rights text-white"><?= $web_data->title ?>&nbsp;©&nbsp; <span><?= date("Y", strtotime($web_data->created_date)) ?></span>.&nbsp; <br class="veil-sm"> <a class="text-white" href="https://<?= $web_data->website ?>"><?= $web_data->website ?></a> </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer 1 - Dynamic end -->
+
+
+  <!-- footer 1 - Dynamic end -->
+
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script async="" src="https://www.youtube.com/iframe_api"></script>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+                        <script src="js/easyfie.js"></script>
+<?= $web_data->footer; ?>
+
+                        <script src="js/easyfie.js"></script>
+<?= $web_data->footer; ?>
+
+</body>
+
+</html>
